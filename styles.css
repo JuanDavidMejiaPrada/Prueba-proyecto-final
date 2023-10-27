@@ -1,0 +1,35 @@
+#cabezera {
+    background-color: rgb(74, 74, 74);
+    margin: 0%;
+    padding: 0%;
+    height: 100px;
+    position: sticky;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+#logo {
+    font-size: 80px;
+    position: relative;
+    margin-top: 1px;
+    margin-left: 40px;
+}
+
+#menuDeNavegacion li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+#menuDeNavegacion a {
+    color: rgb(236, 213, 7);
+    text-decoration: none;
+}

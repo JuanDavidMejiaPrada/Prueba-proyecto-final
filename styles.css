@@ -1,9 +1,11 @@
 #cabezera {
     background-color: rgb(74, 74, 74);
-    margin: 0%;
-    padding: 0%;
-    height: 100px;
-    position: sticky;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    height: 90px;
 }
 
 .nav {
@@ -20,16 +22,37 @@
     font-size: 80px;
     position: relative;
     margin-top: 1px;
-    margin-left: 40px;
+
 }
 
 #menuDeNavegacion li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0% 30px;
     font-size: 20px;
 }
 
 #menuDeNavegacion a {
     color: rgb(236, 213, 7);
     text-decoration: none;
+}
+
+#banner1 {
+    width: 100%;
+    height: 1000px;
+    background-color: #27241F;
+    margin-top: 100px;
+
+}
+
+#Banner {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1080px;
+    min-width: 500px;
+    height: 990px;
+}
+
+.texto_prime{
+    margin-top: 50px;
 }

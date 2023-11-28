@@ -1,5 +1,14 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+
+
+
+
 #cabezera {
-    background-color: rgb(74, 74, 74);
+    background-color: #595959;
     margin: 0%;
     padding: 0%;
     height: 100px;
@@ -25,12 +34,32 @@
 }
 
 #menuDeNavegacion a {
-    color: rgb(236, 213, 7);
+    color: #FFAA1C;
     text-decoration: none;
 }
 
-#banner1 {
-    display: inline;
-    width: 10000px;
 
+#banner1 {
+    background-color: #27241F;
+    text-align: center;
+}
+
+#banner {
+    position: static;
+    margin-top: 0%;
+
+
+}
+
+.texto_prime {
+    background-color: rgb(192, 19, 19);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+}
+
+#solotextoprime {
+    margin-top: 2%;
+    padding: 10px;
+    padding-bottom: 15px;
 }

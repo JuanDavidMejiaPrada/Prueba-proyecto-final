@@ -1,0 +1,73 @@
+#cabezera {
+    background-color: rgb(74, 74, 74);
+    margin: 0%;
+    padding: 0%;
+    height: 100px;
+    position: sticky;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+
+
+#menuDeNavegacion li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+#menuDeNavegacion a {
+    color: rgb(236, 213, 7);
+    text-decoration: none;
+}
+
+#banner1 {
+    display: inline;
+    width: 10000px;
+
+}
+
+.pregunta{
+    display: block;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: gray;
+
+    #palabra{
+        
+    }
+}
+
+#imageneslink{
+background-color: gray;
+}
+#bici1{
+    width: 300px;
+    height: 600px;
+    margin-right: 10px;
+   
+
+    
+
+}
+#zapatillas1{
+    width: 300px;
+    height: 600px;
+    margin-right: 10px;
+}
+#accesorios1{
+    width: 300px;
+    height: 600px;
+    margin-right: 10px;
+    
+    
+
+}

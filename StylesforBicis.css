@@ -35,39 +35,50 @@
 
 }
 
-.pregunta{
+.pregunta {
     display: block;
     padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: gray;
 
     #palabra{
-        
+        color: orange;
     }
+
+
 }
 
-#imageneslink{
-background-color: gray;
+#imageneslink {
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly
 }
-#bici1{
+
+
+#bici1 {
     width: 300px;
     height: 600px;
     margin-right: 10px;
-   
+    filter: brightness(50%);
 
+
+
+
+}
+
+#zapatillas1 {
+    width: 300px;
+    height: 600px;
+    margin-right: 10px;
+    filter: brightness(50%);
     
+}
 
-}
-#zapatillas1{
+#accesorios1 {
     width: 300px;
     height: 600px;
     margin-right: 10px;
-}
-#accesorios1{
-    width: 300px;
-    height: 600px;
-    margin-right: 10px;
-    
+  filter: brightness(50%);
     
 
 }

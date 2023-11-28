@@ -38,29 +38,3 @@ body {
     text-decoration: none;
     text-shadow: 1px 2px 2px black, 0 0 25px rgb(255, 213, 2), 0 0 5px rgb(0, 0, 0);
 }
-
-
-#banner1 {
-    background-color: #27241F;
-    text-align: center;
-}
-
-#banner {
-    position: static;
-    margin-top: 0%;
-
-
-}
-
-.texto_prime {
-    background-color: rgb(192, 19, 19);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-
-}
-
-#solotextoprime {
-    margin-top: 2%;
-    padding: 10px;
-    padding-bottom: 15px;
-}

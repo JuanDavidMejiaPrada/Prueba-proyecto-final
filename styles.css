@@ -36,7 +36,7 @@ body {
 #menuDeNavegacion a {
     color: #FFAA1C;
     text-decoration: none;
-    text-shadow: 1px 2px 2px black, 0 0 25px rgb(255, 213, 2), 0 0 5px rgb(0, 0, 0);
+    text-shadow: 1px 2px 2px black, 0 0 25px rgb(238, 255, 0), 0 0 5px rgb(65, 65, 63);
 }
 
 
@@ -53,7 +53,7 @@ body {
 }
 
 .texto_prime {
-    background-color: rgb(192, 19, 19);
+    background-color: rgba(132, 130, 130, 0.496);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 

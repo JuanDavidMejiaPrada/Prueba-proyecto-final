@@ -38,3 +38,32 @@ body {
     text-decoration: none;
     text-shadow: 1px 2px 2px black, 0 0 25px rgb(255, 213, 2), 0 0 5px rgb(0, 0, 0);
 }
+
+div.galeria{
+    margin: 35px 45px;
+box-shadow: 0 4px 8px 0 rgb(255, 183, 0), 0 0px 20px 0 rgba(0,0,0,0.19);
+float: left;
+width: 350px;
+
+
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+div.galeria:hover{
+    border:1px solid red;
+    transform: rotate(-3deg);
+
+}
+
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(97, 0, 97);
+    padding: 10px;
+}
+

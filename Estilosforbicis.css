@@ -1,42 +1,69 @@
 body {
-    margin: 0%;
-    padding: 0%;
-    background-color: rgb(255, 254, 254);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.238);
 }
 
-
-
-
-#cabezera {
-    background-color: rgb(74, 74, 74);
-    margin: 0%;
-    padding: 0%;
-    height: 100px;
-    position: sticky;
+html {
+    scroll-behavior: smooth;
 }
 
-.nav {
+.encabezado {
+    background-color: rgb(65, 63, 63);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.encabezado header {
+    max-width: 1100px;
+    margin: auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-weight: bold;
+    align-items: center;
+    padding: 15px 20px;
 }
 
-
-
-#menuDeNavegacion li {
-    display: inline-block;
-    padding: 0px 20px;
-    font-size: 20px;
-}
-
-#menuDeNavegacion a {
-    color: #FFAA1C;;
+.encabezado header .logo a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 70px;
+    color: rgb(244, 220, 8);
     text-decoration: none;
-    text-shadow: 1px 2px 2px black, 0 0 25px rgb(255, 213, 2), 0 0 5px rgb(0, 0, 0);
+
+}
+
+.encabezado header ul {
+    display: flex;
+    list-style: none;
+}
+
+.encabezado header ul li a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 3px;
+    transition: 0.5s;
+    text-align: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+.encabezado header ul li a:hover {
+    color: rgba(255, 251, 0, 0.558);
+    margin: 5px;
+}
+
+.nav-responsive {
+    background-color: deepskyblue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
 }
 
 #banner1 {
@@ -68,4 +95,35 @@ div.pie{
     text-align: center;
     text-shadow: 2px 2px 5px rgb(97, 0, 97);
     padding: 10px;
+}
+
+.contacto {
+    padding-top: 15px;
+    text-align: center;
+    background-color: brown;
+}
+
+.contacto .fila {
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-content: space-evenly;
+    margin-bottom: 10pt;
+
+
+}
+
+.contacto .fila .columna i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+
+.contacto .fila .columna h2 {
+    color: black;
 }

@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imgane\ de\ fondo\ 2.jpg);
+}
+
+.formulario {
+    width: 400px;
+    height: 340px;
+    background-color: rgb(85, 85, 85);
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #ffff00;
+    color: white;
+}
+
+.formulario h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid #ffff00;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background-color: #252323;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.buttons {
+    width: 100%;
+    height: 40px;
+    background-color: #ffff00;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.formulario p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+
+}
+
+.formulario a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.formulario a:hover {
+    text-decoration: underline;
+}

@@ -72,26 +72,26 @@ html {
 
 }
 
-div.galeria{
+div.galeria {
     margin: 35px 45px;
-box-shadow: 0 4px 8px 0 rgb(255, 183, 0), 0 0px 20px 0 rgba(0,0,0,0.19);
-float: left;
-width: 350px;
+    box-shadow: 0 4px 8px 0 rgb(242, 255, 0), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    width: 350px;
 
 }
 
-div.galeria img{
+div.galeria img {
     width: 100%;
     height: auto;
 }
 
-div.galeria:hover{
-    border:1px solid red;
+div.galeria:hover {
+    border: 1px solid orange;
     transform: rotate(-3deg);
 
 }
 
-div.pie{
+div.pie {
     text-align: center;
     text-shadow: 2px 2px 5px rgb(97, 0, 97);
     padding: 10px;
